@@ -112,4 +112,6 @@ function createcontentDiv2(obj,index)
     obj.appendChild(newImg);
     obj.appendChild(newI);
 }
+/* creando objetos del select*/
+
 cearTallerConteiner()
