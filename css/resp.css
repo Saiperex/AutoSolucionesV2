@@ -71,4 +71,10 @@
     {
         font-size: 2vh;
     }
+    /*CONTACTO*/
+    .contacto_centrar
+    {
+        width: 90%;
+        height: 90;
+    }
 }
