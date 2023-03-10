@@ -77,4 +77,32 @@
         width: 90%;
         height: 90;
     }
+    .formularios
+    {
+        width: 80%;
+        height: 85%;
+        flex-direction: column;
+    }
+    .formularios form
+    {
+        width: 100%;
+        height: 50%;
+        font-size: 1.5vh;
+    }
+    form textarea, .mensajeT
+    {
+        display: none;
+    }
+    .opciones
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .panel h2 
+    {
+        text-transform: uppercase;
+        font-size: 3vh;
+    }
+    .panel h4
+    {color: #E0E0E0;}
 }
