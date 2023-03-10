@@ -1,0 +1,64 @@
+.talleres_contenedor
+{
+    background-image: linear-gradient(225deg, transparent 50%, #E0E0E0 50%);
+    display: flex;
+    overflow: hidden;
+}
+.tc
+{
+    width: 50%;
+    height: 100%;
+}
+.talleres_contenido
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.talleres_contenido h2
+{
+    font-family: 'Audiowide', cursive;
+    font-size: 4vh;
+}
+.talleres_contenido h4
+{
+    font-family: 'Audiowide', cursive;
+    font-size: 3vh;
+    text-align: center;
+}
+.talleres_contenido legend
+{
+    font-family: 'Audiowide', cursive;
+    font-size: 4vh;
+    text-align: center;
+}
+.talleres_contenido button
+{
+    padding: 2vh;
+    font-family: 'Audiowide', cursive;
+    font-size: 2vh;
+}
+
+/*Engranaje*/
+#gear
+{
+    height: 90vh;
+    animation-name: ckw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    animation-timing-function: linear;
+    color: blue;
+}
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

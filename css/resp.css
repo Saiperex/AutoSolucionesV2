@@ -1,0 +1,74 @@
+@media screen and (max-width:1000px)
+{
+    /*inicio*/
+    .inicio_centrar
+    {
+        width: 90%;
+        height: 90%;
+        z-index: 1
+;
+    }
+    .inicio_centrar h2
+    {
+        font-size: 5vh;
+    }
+    .inicio_centrar h4
+    {
+        font-size: 4vh;
+    }
+    .inicio_centrar button
+    {
+        font-size: 2vh;
+        border-radius: 20px;
+    }
+    /*slider Menu y Menu*/
+    .cabecera_contenedor
+    {
+        width: 98%;
+    }
+    .menu_cabecera
+    {display: none;}
+    .button_slider
+    {
+        display: flex;
+    }
+    .menu_slider
+    {display: block;}
+    /*NOSOTROS*/
+    .nosotros_contenedor
+    {
+        background-image: linear-gradient(205deg, transparent 50%, #E0E0E0 50%);
+        flex-direction: column;
+    }
+    .nosotros_area
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .serv_card legend
+    {
+        font-size:1.5vh
+    }
+    /*talleres*/
+    .talleres_contenedor
+    {
+        flex-direction: column;
+    }
+    .tc 
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .talleres_contenido h2
+    {
+        display: none;
+    }
+    .talleres_contenido h4 
+    {
+        text-transform: uppercase;
+    }
+    .talleres_contenido legend
+    {
+        font-size: 2vh;
+    }
+}

@@ -1,0 +1,68 @@
+.contacto
+{
+    height: 95vh;
+}
+.contacto_contenedor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.contacto_centrar
+{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formularios
+{
+    width: 60%;
+    height: 80%;
+    background-color:#E0E0E0;
+    box-shadow: 9px 10px 20px 6px rgba(0,0,0,0.49);
+    border-radius: 10px;
+    display: flex;
+}
+.formularios form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    border: solid 1px black;
+    padding: 5%;
+    font-family:'Audiowide', cursive;
+}
+.formularios div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.formularios select
+{
+    font-family:'Audiowide', cursive;
+}
+.formularios button
+{
+    padding: 2%;
+    align-self: center;
+    font-family:'Audiowide', cursive;
+}
+
+.opciones
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #febe38;
+    border:solid 1px #000000;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    box-shadow: 9px 10px 20px 6px rgba(0,0,0,0.49);
+}

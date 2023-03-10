@@ -1,0 +1,61 @@
+.button_slider
+{display: none;}
+.button_slider
+{
+    width: 9vh;
+    height: 9vh;
+    background-color: #febe38;
+    border-radius: 1vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px black;
+}
+.line
+{
+    width: 80%;
+    height: 10%;
+    background-color: #000000;
+    transition: 0.4s;
+}
+.change .luno
+{
+    transform: translate(0, 310%) rotate(-45deg);
+}
+.change .ldos {opacity: 0;}
+.change .ltres 
+{
+    transform: translate(0, -350%) rotate(45deg);
+}
+/*slider*/
+.menu_slider
+{
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 10vh;
+    width: 250px;
+    height: 90vh;
+    background: #Febe38;
+    transition: left 500ms ease-in-out;
+    display: none;
+}
+.slider_item
+{
+    font-family:'Audiowide', cursive;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #000000;
+}
+.item_name
+{
+    font-size: 18px;
+}
+.item_Aclaracion
+{
+    font-size: 10px;
+    color: #000000;
+}

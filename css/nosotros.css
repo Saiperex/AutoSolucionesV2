@@ -1,0 +1,91 @@
+.nosotros_contenedor
+{
+    background-image: linear-gradient(75deg, transparent 50%, #E0E0E0 50%);
+    display: flex;
+}
+.nosotros_area
+{
+    width: 50%;
+    height: 100%;
+}
+.narea1
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.5vw;
+}
+.narea1 h2
+{
+    font-size: 7vh;
+    font-family: 'Audiowide', cursive;
+    color: #fefefe;
+}
+.narea1 legend
+{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2vh;
+    color: #fefefe;
+}
+.narea1 p
+{
+    font-size: 2vh;
+
+}
+.narea2
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: "imagen" "servicios";
+}
+.prisma
+{
+    grid-area: imagen;
+    background-image: url("../imagenes/prisma1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-Image 500ms ease-in-out;
+}
+.servicios
+{
+    grid-area: servicios;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.servicios h2
+{
+    height: 10%;
+    font-size: 3vh;
+    font-family: 'Audiowide', cursive;
+}
+.card_conteiner
+{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.serv_card
+{
+    width: 22.5%;
+    height: 100%;
+    text-align: center;
+}
+.serv_card i
+{
+    font-size: 6vh;
+    color: #febe38;
+}
+.serv_card legend
+{
+    font-family: 'Audiowide', cursive;
+    font-size:2vh
+}
