@@ -1,0 +1,57 @@
+.talleres_principal
+{
+    min-height: 95vh;
+    display: flex;
+    align-items: end;
+}
+.buscador-talleres
+{
+    position: relative;
+    width: 100%;
+    min-height: 85vh;
+    font-family: 'Audiowide', cursive;
+    color: #fefefe;
+}
+.buscador
+{
+    position: fixed;
+    top: 10vh;
+    right: 0%;
+    width: 20%;
+    border: solid 1px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+.buscador_contenedor form
+{
+    display: flex;
+    flex-direction: column;
+}
+.buscador_contenedor button
+{
+    padding: 10px;
+}
+form label
+{
+    margin: 10px 0;
+}
+form input
+{
+    margin: 10px 0;
+}
+.eye
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: black;
+    border: none;
+}
+.eye i
+{
+    font-size: 3vh;
+    margin: 10px;
+    color: #fefefe;
+}
