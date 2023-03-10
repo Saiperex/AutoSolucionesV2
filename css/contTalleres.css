@@ -11,9 +11,14 @@
     min-height: 85vh;
     font-family: 'Audiowide', cursive;
     color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
 }
 .buscador
 {
+    z-index: 1;
     position: fixed;
     top: 10vh;
     right: 0%;
@@ -23,6 +28,7 @@
     display: flex;
     flex-direction: column;
     background-color: #000000;
+    transition: right 500ms ease-in-out;
 }
 .buscador_contenedor form
 {
@@ -48,10 +54,72 @@ form input
     bottom: 0px;
     background-color: black;
     border: none;
+    transition: opacity 500ms ease-in-out;
 }
 .eye i
 {
     font-size: 3vh;
     margin: 10px;
     color: #fefefe;
+}
+.changeEye
+{
+    opacity: 0.5;
+}
+.talleres_lista
+{
+    width: 90%;
+}
+.taller
+{
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    background-color: #fefefe;
+    box-shadow: 5px 5px 20px 0px rgba(0,0, 0, .5);
+    margin: 2% 0;
+    display: flex;
+}
+.ti
+{
+    width: 50%;
+    height: 100%;
+    border: solid 1px #000000;
+    color: #000000;
+}
+.datos-taller
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.datos-taller h4
+{
+    padding: 10px 5px;
+}
+.img-ubi
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "logoTaller" "Ubicacion";
+}
+.img-ubi img
+{
+    grid-area: logoTaller;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-self:center ;
+    justify-self: center;
+    border: #000000;
+}
+.img-ubi i
+{
+    grid-area: Ubicacion;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 6vh;
 }
