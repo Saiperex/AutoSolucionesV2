@@ -52,6 +52,7 @@
     padding: 2%;
     align-self: center;
     font-family:'Audiowide', cursive;
+    cursor: pointer;
 }
 
 .opciones
@@ -86,6 +87,7 @@
     height: 20%;
     align-self: center;
     font-family:'Audiowide', cursive;
+    cursor: pointer;
 }
 .panelDer
 {

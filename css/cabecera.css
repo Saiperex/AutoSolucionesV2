@@ -35,6 +35,7 @@
     font-weight: bold;
     font-family: 'Audiowide', cursive;
     transition: font-size 500ms ease-in, text-shadow 500ms ease-in;
+    cursor: pointer;
 }
 .menu_item:hover
 {
