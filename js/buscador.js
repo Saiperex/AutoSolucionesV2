@@ -161,7 +161,11 @@ function createTextDiv2(obj,index)
     var newh43=document.createElement("h4")
     newh43.innerText="DIRECCION: "+jsonTalleresData[index].direccion;
     var newh44=document.createElement("h4")
-    newh44.innerText="TELEFONO: "+jsonTalleresData[index].telefono;
+    var wa=document.createElement("a")
+    wa.setAttribute("href",+jsonTalleresData[index].wa)
+    wa.textContent=+jsonTalleresData[index].telefono
+    newh44.innerHTML="TELEFONO: +";
+    newh44.appendChild(wa)
     obj.appendChild(newh41);
     obj.appendChild(newh42);
     obj.appendChild(newh43);
@@ -230,7 +234,11 @@ let arrayProvincias = jsonTalleresData.filter((item, index, self) => {
         var newh43=document.createElement("h4")
         newh43.innerText="DIRECCION: "+newARR[i].direccion;
         var newh44=document.createElement("h4")
-        newh44.innerText="TELEFONO: "+newARR[i].telefono;
+        var wa=document.createElement("a")
+        wa.setAttribute("href",newARR[i].wa)
+        wa.textContent=newARR[i].telefono
+        newh44.innerHTML="TELEFONO: ";
+        newh44.appendChild(wa)
         newDiv2.appendChild(newh41);
         newDiv2.appendChild(newh42);
         newDiv2.appendChild(newh43);
@@ -288,7 +296,7 @@ let arrayProvincias = jsonTalleresData.filter((item, index, self) => {
         var newh43=document.createElement("h4")
         newh43.innerText="DIRECCION: "+filter2[i].direccion;
         var newh44=document.createElement("h4")
-        newh44.innerText="TELEFONO: "+filter2[i].telefono;
+        newh44.innerHTML="TELEFONO: "+filter2[i].telefono;
         newDiv2.appendChild(newh41);
         newDiv2.appendChild(newh42);
         newDiv2.appendChild(newh43);
