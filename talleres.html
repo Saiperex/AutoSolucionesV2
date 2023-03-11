@@ -61,17 +61,19 @@
             </li>
         </nav>
         <section class="buscador-talleres">
-            <h2>TALLERES ENCONTRADOS:<br></br></h2>
+            <h2 class="nim"></h2>
             <div class="buscador">
                 <h2>TU TALLER PERFECTO TE ESPERA</h2>
                 <div class="buscador_contenedor">
                     <form action="">
                         <label for="prov">Provincia</label>
-                        <select name="prov" id="prov"></select>
+                        <select name="prov" id="prov">
+                            <option id="items">Todos</option>
+                        </select>
                         <label for="nombre">Escriba el nombre del taller</label>
                         <input type="text" name="nombre" id="nombre">
                     </form>
-                    <button>BUSCAR</button>
+                    <button id="quest">BUSCAR</button>
                 </div>
             </div>
             <div class="talleres_lista">

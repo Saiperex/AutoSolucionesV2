@@ -10,7 +10,7 @@ function validar2 ()
 {
     if(botonOjo.classList.contains("changeEye"))
     {
-        sliderBuscador.style="right: -20%" 
+        sliderBuscador.style="right: -50%" 
     }
     else
     {

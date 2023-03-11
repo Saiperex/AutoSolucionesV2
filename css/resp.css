@@ -105,4 +105,30 @@
     }
     .panel h4
     {color: #E0E0E0;}
+    /*BUSCAR TALLERES*/
+    .cabecera
+    {
+        background-color: #FEBE38;
+    }
+    .buscador
+    {
+        width: 50%;
+    }
+    .nim
+    {
+        font-size: 3vh;
+    }
+    .taller
+    {
+        height: 50vh;
+    }
+    .talleres_lista
+    {
+        width: 98%;
+    }
+    /*footer*/
+    footer
+    {
+        font-size: 2vh;
+    }
 }
