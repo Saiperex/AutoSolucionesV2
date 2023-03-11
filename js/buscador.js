@@ -284,11 +284,11 @@ let arrayProvincias = jsonTalleresData.filter((item, index, self) => {
         var newh41=document.createElement("h4")
         newh41.innerText=filter2[i].nombre;
         var newh42=document.createElement("h4")
-        newh42.innerText="DUEÑO"+filter2[i].dueño;
+        newh42.innerText="DUEÑO: "+filter2[i].dueño;
         var newh43=document.createElement("h4")
-        newh43.innerText="DIRECCION"+filter2[i].direccion;
+        newh43.innerText="DIRECCION: "+filter2[i].direccion;
         var newh44=document.createElement("h4")
-        newh44.innerText="TELEFONO"+filter2[i].telefono;
+        newh44.innerText="TELEFONO: "+filter2[i].telefono;
         newDiv2.appendChild(newh41);
         newDiv2.appendChild(newh42);
         newDiv2.appendChild(newh43);
