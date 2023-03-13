@@ -104,7 +104,9 @@
         font-size: 3vh;
     }
     .panel h4
-    {color: #E0E0E0;}
+    {color: #E0E0E0;
+    font-size: 2vh;
+    }
     /*BUSCAR TALLERES*/
     .cabecera
     {

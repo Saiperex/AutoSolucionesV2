@@ -6,7 +6,8 @@ var jsonTalleres=`[
         "direccion":"Dr. Moyano 504 Olivia, Cordoba",
         "telefono":"+5493532418532",
         "wa":"https://wa.me/+5493532418532",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/s7pqiuTU8PFwYA8n9"
     },
     
     {
@@ -15,7 +16,8 @@ var jsonTalleres=`[
         "direccion":"Liniers 121, Salto, B.S A.S",
         "telefono":"+549247443025",
         "wa":"https://wa.me/+549247443025",
-        "mapa":"B.S.A.S"
+        "mapa":"B.S.A.S",
+        "ubicacion":"https://goo.gl/maps/3GSxpbb8Q9YzwAaq6"
     },
 
     {
@@ -24,7 +26,8 @@ var jsonTalleres=`[
         "direccion":"Guarda nacional 455, Bº Las Palmas, Cordoba",
         "telefono":"+5493516208802",
         "wa":"https://wa.me/+5493516208802",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/YzC9ueTcQerParpS8"
     },
 
     {
@@ -33,7 +36,8 @@ var jsonTalleres=`[
         "direccion":"Pte Castillo 407, Poman, Catamarca",
         "telefono":"+5493834904980",
         "wa":"https://wa.me/+5493834904980",
-        "mapa":"Catamarca"
+        "mapa":"Catamarca",
+        "ubicacion":"https://goo.gl/maps/YFfCeVUfXMhdoJ8eA"
     },
 
     {
@@ -42,7 +46,8 @@ var jsonTalleres=`[
         "direccion":"Intendente Pedro Paolini 15, Justiniano Pose, CBA",
         "telefono":"+5493537676089",
         "wa":"https://wa.me/+5493537676089",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/rcgvA2TPJUX4kuZY8"
     },
 
     {
@@ -51,7 +56,8 @@ var jsonTalleres=`[
         "direccion":"Av. Recta Martinilli 8333, Cordoba",
         "telefono":"+5493516818254",
         "wa":"https://wa.me/+5493516818254",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/igQbqfXgPWJBHVeVA"
     },
 
     {
@@ -60,7 +66,8 @@ var jsonTalleres=`[
         "direccion":"Ruta Nac. Nº 8 Km 410, Cordoba",
         "telefono":"+5493468643175",
         "wa":"https://wa.me/+5493468643175",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/A71rKGs14egcYb5h9"
     },
 
     {
@@ -69,7 +76,8 @@ var jsonTalleres=`[
         "direccion":"Belgrano 0, Bialet Masse, Cordoba",
         "telefono":"+5493541606226",
         "wa":"https://wa.me/+5493541606226",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/Vnizeu8EhuangZVH8"
     },
 
     {
@@ -78,7 +86,8 @@ var jsonTalleres=`[
         "direccion":"Libertad 435, Alcira Gigena, Cordoba",
         "telefono":"No proporcionado",
         "wa":"https://wa.me/",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/ARFuBCBW7w72GXpn8"
     },
 
     {
@@ -87,7 +96,8 @@ var jsonTalleres=`[
         "direccion":"No proporcionada",
         "telefono":"+5493804236069",
         "wa":"https://wa.me/+5493804236069",
-        "mapa":"La Rioja"
+        "mapa":"La Rioja",
+        "ubicacion":"https://goo.gl/maps/"
     },
 
     {
@@ -96,16 +106,18 @@ var jsonTalleres=`[
         "direccion":"Av. Los paraisos S/N, Calera, Cordoba",
         "telefono":"No proporcionado",
         "wa":"https://wa.me/",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/uyLx25FgqQRHqJZ17"
     },
 
     {
         "nombre":"Taller Integral de Electricidad-Mecanica-Inyeccion Electronica",
         "dueño":"Privado",
-        "direccion":"Rivadavia 166, Saldan",
+        "direccion":"Rivadavia 166, Saldan, Cordoba",
         "telefono":"No proporcionado",
         "wa":"https://wa.me/",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/eWak8SEBmaryVvcHA"
     },
     {
         "nombre":"TEC-CAT",
@@ -113,7 +125,8 @@ var jsonTalleres=`[
         "direccion":"No Proporcionado",
         "telefono":"+5493543584259",
         "wa":"https://wa.me/+5493543584259",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/"
     },
     {
         "nombre":"Mecanica Jose- Inyeccion Electronica",
@@ -121,7 +134,8 @@ var jsonTalleres=`[
         "direccion":"Rio Penitente 1934, B° residencial Sud",
         "telefono":"No proporcionado",
         "wa":"https://wa.me/",
-        "mapa":"Cordoba"
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/7XPo8J38e8XmCENB7"
     }
 ]
 `
@@ -162,7 +176,7 @@ function createTextDiv2(obj,index)
     newh43.innerText="DIRECCION: "+jsonTalleresData[index].direccion;
     var newh44=document.createElement("h4")
     var wa=document.createElement("a")
-    wa.setAttribute("href",+jsonTalleresData[index].wa)
+    wa.setAttribute("href",jsonTalleresData[index].wa)
     wa.textContent=+jsonTalleresData[index].telefono
     newh44.innerHTML="TELEFONO: +";
     newh44.appendChild(wa)
@@ -174,8 +188,9 @@ function createTextDiv2(obj,index)
 function createcontentDiv2(obj,index)
 {
     var newImg=document.createElement("img")
-    var newI=document.createElement("i")
+    var newI=document.createElement("a")//cambio
     newI.className="fa-sharp fa-solid fa-location-dot"
+    newI.setAttribute("href",jsonTalleresData[index].ubicacion)
     obj.appendChild(newImg);
     obj.appendChild(newI);
 }
@@ -245,8 +260,9 @@ let arrayProvincias = jsonTalleresData.filter((item, index, self) => {
         newDiv2.appendChild(newh44);
 
         var newImg=document.createElement("img")
-        var newI=document.createElement("i")
+        var newI=document.createElement("a")//cambio
         newI.className="fa-sharp fa-solid fa-location-dot"
+        newI.setAttribute("href",newARR[i].ubicacion)
         newDiv1.appendChild(newImg);
         newDiv1.appendChild(newI);
     }
@@ -297,14 +313,22 @@ let arrayProvincias = jsonTalleresData.filter((item, index, self) => {
         newh43.innerText="DIRECCION: "+filter2[i].direccion;
         var newh44=document.createElement("h4")
         newh44.innerHTML="TELEFONO: "+filter2[i].telefono;
+
+        var wa=document.createElement("a")
+        wa.setAttribute("href",filter2[i].wa)
+        wa.textContent=filter2[i].telefono
+        newh44.innerHTML="TELEFONO: ";
+        newh44.appendChild(wa)
+
         newDiv2.appendChild(newh41);
         newDiv2.appendChild(newh42);
         newDiv2.appendChild(newh43);
         newDiv2.appendChild(newh44);
 
         var newImg=document.createElement("img")
-        var newI=document.createElement("i")
+        var newI=document.createElement("a")//cambio
         newI.className="fa-sharp fa-solid fa-location-dot"
+        newI.setAttribute("href",filter2[i].ubicacion)
         newDiv1.appendChild(newImg);
         newDiv1.appendChild(newI);
     }

@@ -115,15 +115,20 @@ form input
     justify-self: center;
     border: #000000;
 }
-.img-ubi i
+.img-ubi a
 {
     grid-area: Ubicacion;
     display: flex;
     align-self: center;
     justify-self: center;
     font-size: 6vh;
+    color: #000000;
 }
 #prov
 {
     font-family: 'Audiowide', cursive;
+}
+h4 a
+{
+    color: #000000;
 }
