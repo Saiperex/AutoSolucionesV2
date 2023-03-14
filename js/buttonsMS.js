@@ -4,6 +4,13 @@ var botonesSlider = document.querySelectorAll(".slider_item")
 var botonesSlider2 = document.querySelectorAll(".slider_item2")
 var secciones = document.querySelectorAll(".seccion")
 var buttonT = document.querySelector(".btaller")
+var buttonContact = document.querySelector(".con-button")
+
+if (buttonContact != null) {
+    buttonContact.addEventListener("click", function (event) {
+        secciones[3].scrollIntoView({ behavior: 'smooth' });
+    })
+}
 const sect = ["inicio", "nosotros", "talleres", "contacto"]
 for (let i = 0; i < botones.length; i++) {
     botones[i].addEventListener("click", function (event) {

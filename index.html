@@ -68,7 +68,7 @@
                 <div class="inicio_centrar">
                     <h2>SERVICIO VEHICULAR</h2>
                     <h4>EN TODO EL PAIS</h4>
-                    <button>CONTACTANOS</button>
+                    <button class="con-button">CONTACTANOS</button>
                 </div>
                 <div class="absoluto1"></div>
                 <div class="absoluto2"></div>
@@ -138,47 +138,47 @@
             <div class="contenedor contacto_contenedor">
                 <div class="contacto_centrar">
                     <div class="formularios">
-                        <form action="#" method="POST">
+                        <form >
                             <select name="data[form_type_id]" class="chzn-select input-xlarge" id="changeForm">
-                                <option value="2">Quiero más información sobre AutoSoluciones</option>
-                                <option value="3">Quiero ser proveedor de AutoSoluciones</option>
-                                <option value="4">Quiero contactarme con AutoSoluciones</option>
+                                <option value="1">Quiero más información sobre AutoSoluciones</option>
+                                <option value="2">Quiero ser proveedor de AutoSoluciones</option>
+                                <option value="3">Quiero contactarme con AutoSoluciones</option>
                             </select>
                             <label for="nombre">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" required="">
+                            <input class="nombre_u" type="text" id="nombre" name="nombre" required="">
 
                             <label for="email">Correo electronico:</label>
-                            <input type="email" id="email" name="email" required="">
+                            <input class="email_u" type="email" id="email" name="email" required="">
 
                             <label for="telefono">Telefono:</label>
-                            <input type="tel" id="telefono" name="telefono" required="">
+                            <input class="tel_u" type="tel" id="telefono" name="telefono" required="">
 
-                            <label class="mensajeT" for="mensaje">Mensaje:</label>
-                            <textarea name="mensaje" placeholder="Escribe tu mensaje aqui" rows="5"
+                            <label  class="mensajeT" for="mensaje">Mensaje:</label>
+                            <textarea class="mensaje_u" name="mensaje" placeholder="Escribe tu mensaje aqui" rows="5"
                                 style="resize: none;" required=""></textarea>
 
                             <label>Horario:</label>
                             <div>
-                                <input type="radio" id="dia" name="horario" value="dia" required="">
+                                <input class="contactRadio" type="radio" id="dia" name="horario" value="dia" required="">
                                 <label for="dia">Dia</label>
 
-                                <input type="radio" id="tarde" name="horario" value="tarde">
+                                <input class="contactRadio" type="radio" id="tarde" name="horario" value="tarde">
                                 <label for="tarde">Tarde</label>
 
-                                <input type="radio" id="noche" name="horario" value="noche">
+                                <input class="contactRadio" type="radio" id="noche" name="horario" value="noche">
                                 <label for="noche">Noche</label>
                             </div>
 
-                            <button type="submit">Enviar</button>
+                            <button type="button" class="enviar_formulario"">Enviar</button>
                         </form>
                         <form action="">
                             <h2>Unete a nuestra red</h2>
                             <legend>Deja tus datos y te contactaremos</legend>
                             <label for="nombre">Nombre del taller:</label>
-                            <input type="text" id="nombre" name="nombre" required="">
+                            <input class="nombre_taller" type="text" id="nombre" name="nombre" required="">
                             <label for="direccion">Direccion:</label>
-                            <input type="text" id="direccion" name="direccion" required="">
-                            <button>Unirte</button>
+                            <input class="direccion_taller" type="text" id="direccion" name="direccion" required="">
+                            <button type="button" class="enviar_taller">Unirte</button>
                         </form>
                     </div>
                     <div class="opciones">
@@ -200,6 +200,7 @@
             <li>WEB DISEÑADA POR <a href="https://wa.me/+5493518560415">AGNIS - SOLUCIONES WEB &copy</a></li>
         </footer>
     </main>
+    <script src="js/whatsappForm.js"></script>
     <script src="js/formMobile.js"></script>
     <script src="js/changeImagen.js"></script>
     <script src="js/buttonsMS.js"></script>
