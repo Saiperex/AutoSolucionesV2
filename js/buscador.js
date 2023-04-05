@@ -13,11 +13,21 @@ var jsonTalleres=`[
     {
         "nombre":"D&M Cajas Automatizada",
         "dueño":"Privado",
-        "direccion":"Alvear 2844, Lomas del mirador, B.S A.S/Sadi Carnot 1972 CBA",
+        "direccion":"Alvear 2844, Lomas del mirador, B.S A.S",
         "telefono":"+5491130732002",
         "wa":"https://wa.me/+5491130732002",
         "mapa":"B.S.A.S",
         "ubicacion":"https://goo.gl/maps/1xKrqpLCgjm9Wjxy5"
+    },
+
+    {
+        "nombre":"D&M Cajas Automatizada",
+        "dueño":"Privado",
+        "direccion":"Sadi Carnot 1972, Cordoba",
+        "telefono":"+5493512077300",
+        "wa":"https://wa.me/+5493512077300",
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/duPYenAAshoiJutq9"
     },
 
     {
