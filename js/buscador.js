@@ -11,6 +11,16 @@ var jsonTalleres=`[
     },
     
     {
+        "nombre":"D&M Cajas Automatizada",
+        "dueño":"Privado",
+        "direccion":"Alvear 2844, Lomas del mirador, B.S A.S/Sadi Carnot 1972 CBA",
+        "telefono":"+5491130732002",
+        "wa":"https://wa.me/+5491130732002",
+        "mapa":"B.S.A.S",
+        "ubicacion":"https://goo.gl/maps/1xKrqpLCgjm9Wjxy5"
+    },
+
+    {
         "nombre":"Servicio Mecanico D.G",
         "dueño":"Diego Garabano",
         "direccion":"Liniers 121, Salto, B.S A.S",
@@ -72,7 +82,7 @@ var jsonTalleres=`[
 
     {
         "nombre":"Taller Ruta 38",
-        "dueño":"",
+        "dueño":"Privado",
         "direccion":"Belgrano 0, Bialet Masse, Cordoba",
         "telefono":"+5493541606226",
         "wa":"https://wa.me/+5493541606226",
