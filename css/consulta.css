@@ -1,0 +1,67 @@
+main
+{
+    position: absolute;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(75deg, transparent 50%, #E0E0E0 50%);
+    display: flex;
+}
+.seccion
+{
+    width: 50%;
+    height: 100%;
+}
+.textos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.textos h2
+{
+    width: 80%;
+    display: inline-block;
+    font-family: 'Audiowide', cursive;
+    font-size: 4vh;
+}
+.textos p
+{
+    width: 80%;
+    font-size: 2.5vh;
+}
+.imagenes
+{
+    display: grid;
+    place-items: center;
+}
+.imagen
+{
+    width: 80%;
+    height: 80%;
+    transition: opacity 300ms;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px;
+    border-radius: 30% 10% 70% 30%;
+}
+@media screen and (max-width:1000px) 
+{
+    main
+    {
+        flex-direction: column;
+        background-image: linear-gradient(125deg, transparent 50%, #E0E0E0 50%);
+    }
+    .seccion
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .textos p
+    {
+        width: 90%;
+        font-size: 1.5vh;
+    }
+}

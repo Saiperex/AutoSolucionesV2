@@ -12,3 +12,7 @@ body
     position: relative;
     background-color: #FEBE38;
 }
+html
+{
+    scroll-behavior: smooth;
+}
