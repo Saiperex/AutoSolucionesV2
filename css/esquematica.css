@@ -1,0 +1,123 @@
+main
+{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(76deg,#F2F1EC 50%, #febe38 50%);
+}
+.seccion
+{
+    width: 50%;
+    height: 100%;
+}
+.imagenes
+{
+    display: grid;
+    place-items: center;
+}
+.imagen
+{
+    width: 80%;
+    height: 80%;
+    transition: opacity 300ms;
+    background-image: url("../imagenes/esquematica.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px;
+    clip-path: polygon(0 84%, 100% 92%, 94% 2%, 5% 5%);
+}
+.textos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.textos h2
+{
+    width: 80%;
+    display: inline-block;
+    font-family: 'Audiowide', cursive;
+    font-size: 4vh;
+}
+.textos p
+{
+    width: 80%;
+    font-size: 2.5vh;
+}
+.venta
+{
+    width: 80%;
+    background-color: #000;
+    color: #fff;
+    height: 15%;
+    box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.contenido_venta
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenido_venta legend
+{
+    width: 90%;
+}
+.contenido_img
+{
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.contenido_img img
+{
+    height: 100%;
+}
+.contenido_img i
+{
+    position: absolute;
+    color: #000;
+    align-self: center;
+    font-size: 3rem;
+}
+@media screen and (max-width:1000px) 
+{
+    main
+    {
+        flex-direction: column;
+        background: linear-gradient(-176deg,#F2F1EC 40%, #febe38 0%);
+    }
+    .imagenes
+    {
+        width: 100%;
+        height: 40%;
+    }
+    .textos
+    {
+        width: 100%;
+        height: 60%;
+    }
+    .textos p
+    {
+        width: 90%;
+        font-size: 1.5vh;
+    }
+    .venta
+    {
+        height: 25%;
+        width: 90%;
+    }
+    .contenido_venta legend
+    {
+        font-size: 1vh;
+    }
+}
