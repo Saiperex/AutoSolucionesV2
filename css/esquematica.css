@@ -55,6 +55,7 @@ main
     height: 15%;
     box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.5);
     display: flex;
+    cursor: pointer;
 }
 .contenido_venta
 {

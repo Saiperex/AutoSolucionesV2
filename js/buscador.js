@@ -139,6 +139,17 @@ var jsonTalleres=`[
         "mapa":"Cordoba",
         "ubicacion":"https://goo.gl/maps/eWak8SEBmaryVvcHA"
     },
+
+    {
+        "nombre":"Taller Dalpo",
+        "dueño":"Privado",
+        "direccion":"Castro Barros 987, Cordoba",
+        "telefono":"+5493516214934",
+        "wa":"https://wa.me/+5493516214934",
+        "mapa":"Cordoba",
+        "ubicacion":"https://goo.gl/maps/exSqDt3zyxMhHpDRA"
+    },
+
     {
         "nombre":"TEC-CAT",
         "dueño":"Elias Cativa",
